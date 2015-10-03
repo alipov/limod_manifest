@@ -2,8 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote  name="alipov"
+           fetch="https://github.com/alipov" />		   
+		   
   <default revision="master"
            remote="aosp"
            sync-j="4" />
